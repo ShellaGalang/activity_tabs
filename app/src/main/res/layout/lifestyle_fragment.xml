@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lifestyleTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lifestyle_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <!-- START OF TRAVEL SECTION -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/lsTravelIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lf2"
+                android:contentDescription="@string/lf_travel_desc"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/lcTravelDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/black_50"
+                android:padding="10dp"
+                android:text="@string/lf_travel_desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- END OF TRAVEL SECTION -->
+
+        <!-- START OF FITNESS SECTION -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/lcFitnessIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lf3"
+                android:contentDescription="@string/lf_fitness_desc"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/lcFitnessDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/black_50"
+                android:padding="10dp"
+                android:text="@string/lf_fitness_desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- END OF FITNESS SECTION -->
+
+        <!-- START COOKING SECTION -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/lcCoookingIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lf4"
+                android:contentDescription="@string/lf_cooking_desc"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/entSportsDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/black_50"
+                android:padding="10dp"
+                android:text="@string/lf_cooking_desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- END LOCAL SECTION -->
+
+
+    </LinearLayout>
+
+
+</ScrollView>
